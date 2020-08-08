@@ -6,11 +6,11 @@ void setup()
 }
 void loop() 
 {
-  int xval=analogRead(xPin);
-  int yval=analogRead(yPin); 
-  Serial.print("xval=");
+  int xval = analogRead(xPin);
+  int yval = analogRead(yPin); 
+  Serial.print("xval= ");
   Serial.println(xval);//Use xval to determine threshold for different directions
-  Serial.print("yval=");
+  Serial.print("yval= ");
   Serial.println(yval); //Use yval to determine threshold for different directions
   delay(2000);
   Serial.print("\n");
