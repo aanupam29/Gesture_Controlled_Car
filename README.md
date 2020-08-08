@@ -1,7 +1,8 @@
 # Gesture_Controlled_Car
 
-This repo contains arduino code for the hand gesture controlled car.
-The car uses :-
+This repository contains arduino code for the hand gesture controlled car.
+
+The car uses following components:-
   1.Arduino Uno
   2.ADXL335 accelerometer
   3.433 MHz transmitter and receiver modules
