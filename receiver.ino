@@ -43,7 +43,7 @@ void loop()
               digitalWrite(rmr,LOW); 
               digitalWrite(ledPin,HIGH);
             }
-            if (buf[i]==0x62)//Backward
+            if (buf[i]==0x61)//Backward
             {
               digitalWrite(lm,HIGH);  
               digitalWrite(lmr,LOW);
