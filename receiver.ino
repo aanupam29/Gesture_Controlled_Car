@@ -43,7 +43,7 @@ void loop()
               digitalWrite(rmr,LOW); 
               digitalWrite(ledPin,HIGH);
             }
-            if (buf[i]==0x61)//Backward
+            if (buf[i]==0x62)//Backward
             {
               digitalWrite(lm,HIGH);  
               digitalWrite(lmr,LOW);
@@ -52,7 +52,7 @@ void loop()
               
               digitalWrite(ledPin,HIGH);
             }
-            if (buf[i]==0x72)//Left 
+            if (buf[i]==0x6C)//Left 
             {
               digitalWrite(lm,LOW);  
               digitalWrite(lmr,LOW);
@@ -60,7 +60,7 @@ void loop()
               digitalWrite(rmr,LOW);
               digitalWrite(ledPin,HIGH);
             }     
-            if (buf[i]==0x6C)//Right 
+            if (buf[i]==0x72)//Right 
             {
               digitalWrite(lm,LOW);  
               digitalWrite(lmr,HIGH);
