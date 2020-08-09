@@ -52,7 +52,7 @@ void loop()
               
               digitalWrite(ledPin,HIGH);
             }
-            if (buf[i]==0x6C)//Left 
+            if (buf[i]==0x6c)//Left 
             {
               digitalWrite(lm,LOW);  
               digitalWrite(lmr,LOW);
