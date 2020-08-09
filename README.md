@@ -10,3 +10,6 @@ The car uses following components:-
   5.DC motors
   6.L293D motor driver IC
   7.9V batteries
+
+I have also used virtual library for using transmitter and receiver module.
+Software part is done, hardware part is left.
