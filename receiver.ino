@@ -51,7 +51,7 @@ void loop()
               digitalWrite(rmr,HIGH);
               
               digitalWrite(ledPin,HIGH);
-          }
+            }
             if (buf[i]==0x72)//Left 
             {
               digitalWrite(lm,LOW);  
